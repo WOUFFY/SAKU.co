@@ -11,28 +11,29 @@ function App() {
 
   return (
     <>
-      <div className="container">
+      <div className="kurni turu Moment">
         <Navbar></Navbar>
 
         <div className="nama">
             <h2>SAKU.co</h2>
-            <h3>Sistem Pemesanan Kantin Online</h3>
+            <h3>Sistem Pemesanan Kantin UPNVJ</h3>
         </div>
 
         <Main_content_wrap></Main_content_wrap>
 
-        {/* <Swiper
-          spaceBetween={50}
+        <Swiper
+          spaceBetween={10}
           slidesPerView={3}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
           >
-          <SwiperSlide><img className="h-72 w-full object-cover" src="./img/kurni_turu.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="h-72 w-full object-cover" src="./img/burger.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="h-72 w-full object-cover" src="./img/salmon.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="h-72 w-full object-cover" src="./img/spaghett.jpg" alt="" /></SwiperSlide>
-        </Swiper> */}
-
+          <SwiperSlide><img className="salmoneuy" src="./img/salmoneuy.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="burger" src="./img/burger.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="salmon" src="./img/salmon.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="spaghetti" src="./img/spaghett.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="telur" src="./img/telur.jpg" alt="" /></SwiperSlide>
+        </Swiper>
+        
         <Footer></Footer>
       </div>
     </>
