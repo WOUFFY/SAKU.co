@@ -27,11 +27,12 @@ function App() {
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
           >
-          <SwiperSlide><img className="salmoneuy" src="./img/salmoneuy.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="burger" src="./img/burger.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="salmon" src="./img/salmon.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="spaghetti" src="./img/spaghett.jpg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="telur" src="./img/telur.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="sushi rounded-lg" src="./img/sushi.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="burger rounded-lg" src="./img/burgir.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="salmon rounded-lg" src="./img/chicken.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="spaghetti object-bottom rounded-lg" src="./img/spaghett.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="telur rounded-lg" src="./img/telur.jpg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="mie rounded-lg" src="./img/mie.jpg" alt="" /></SwiperSlide>
         </Swiper>
         
         <Footer></Footer>
